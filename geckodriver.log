@@ -59,3 +59,12 @@ JavaScript error: moz-extension://72bca119-a63f-41eb-b690-e758b3a0fa58/lib/pictu
 JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
 1590331451921	Marionette	INFO	Listening on port 38383
 1590331452006	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590333386271	Marionette	INFO	Stopped listening on port 38383
+1590333386830	Marionette	INFO	Stopped listening on port 42541
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 11150, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /build/firefox-esr-FteunY/firefox-esr-68.8.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1590333387275	Marionette	INFO	Stopped listening on port 36153
+[Parent 10887, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-esr-FteunY/firefox-esr-68.8.0esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1590333388016	Marionette	INFO	Stopped listening on port 39625
